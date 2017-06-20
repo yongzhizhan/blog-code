@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>cn.zhanyongzhi.blog</groupId>
-  <artifactId>zookeeper</artifactId>
+  <artifactId>blog-code</artifactId>
   <versioning>
     <versions>
       <version>1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20170620054422</lastUpdated>
+    <lastUpdated>20170620054545</lastUpdated>
   </versioning>
 </metadata>
