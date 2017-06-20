@@ -42,8 +42,8 @@
     </repositories>
 
     <scm>
-        <connection>scm:git:file://${project.build.directory}/mvn-repo/</connection>
-        <developerConnection>scm:git:file://${project.build.directory}/mvn-repo/</developerConnection>
+        <connection>scm:git:https://github.com/yongzhizhan/blog-code.git</connection>
+        <developerConnection>scm:git:https://github.com/yongzhizhan/blog-code.git</developerConnection>
       <tag>blog-code-1.0</tag>
   </scm>
 
