@@ -59,4 +59,8 @@
         </dependency>
     </dependencies>
 
+
+  <scm>
+    <tag>zookeeper-1.0</tag>
+  </scm>
 </project>
