@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>cn.zhanyongzhi.blog</groupId>
+  <artifactId>blog-code</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20170620054405</lastUpdated>
+  </versioning>
+</metadata>
