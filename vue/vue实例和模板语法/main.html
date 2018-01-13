@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue实例和模板语法</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+
+<body>
+    <button id="example" @click="add(1, $event)">{{a}},{{sum}}</button>
+</body>
+
+<script>
+    let data = {
+        a: 'foo',
+        sum: 0
+    };
+
+    let vData = new Vue({
+        el: '#example',
+        data: data,
+        //这是钩子
+        created: function(){
+            console.log(this.a);
+        },
+
+        methods:{
+            //event
+            add: function(num, event){
+                this.sum += num;
+                console.log('trigger an event, num:' + num);
+            }
+        }
+    });
+
+    console.log(data.a === vData.a);
+
+    //修改
+    data.a = "bar";
+    console.log("bar" === vData.a);
+    console.log(data.a === vData.$data.a);
+
+</script>
+</html>
